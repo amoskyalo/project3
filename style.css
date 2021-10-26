@@ -25,9 +25,7 @@
     flex-direction: row;
     justify-content: space-around;
 }
-/* .container-1 h2{
-    font-size: 16px;
-} */
+
 
 .flex-box-container-1 div{
     display: flex;
