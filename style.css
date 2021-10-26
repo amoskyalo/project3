@@ -1,0 +1,72 @@
+.body{
+    background: cornflowerblue;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    overflow: hidden;
+   
+}
+
+.container-1{
+    border: 1px solid rgb(233, 181, 13);
+    /* padding-top: 40px; */
+    margin: 10px auto;
+    width: 50%;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+.flex-box-container-1{
+    border: 1px solid rgb(233, 181, 13);
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* .container-1 h2{
+    font-size: 16px;
+} */
+
+.flex-box-container-1 div{
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
+}
+.container{
+    text-align: center;
+    margin-top: 20px;
+   
+    
+}
+#ageInDays{
+    color: rgb(255, 17, 0);
+}
+
+
+.container img{
+    height: 200px;
+    border-radius: 20%;
+}
+p{
+    /* margin: 200px; */
+    text-align: center;
+    padding: 10px;
+    color: crimson;
+    font-style: italic;
+    font-weight: 600;
+}
+@media(max-width: 700px){
+    .container-1 h2{
+        font-size: 25px;
+    }
+    #ageInDays{
+        font-size: 25px;
+        color: rgb(255, 17, 0);
+
+    }
+    
+    
+}
